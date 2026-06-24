@@ -19,16 +19,22 @@ composer install
 
 # 3. Setup Environment
 copy .env.example .env
+
 atau untuk Linux/Mac:
+
 cp .env.example .env
 
 # 4. Konfigurasi Database
-env
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=employee_transaction_db
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 # 5. Generate Application Key
@@ -48,6 +54,7 @@ php artisan serve
 
 ## AKSES APLIKASI
 Setelah menjalankan php artisan serve, buka browser dan akses:
+
 http://localhost:8000
 
 Default Login:
